@@ -1,0 +1,72 @@
+/* Reset CSS */
+
+/* Thiết lập các phần tử HTML về mặc định */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* Thiết lập phông chữ mặc định cho body */
+body {
+    line-height: 1;
+}
+
+/* Thiết lập các thành phần block thành inline */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+/* Thiết lập font mặc định cho input và button */
+input, select, textarea, button {
+    font: inherit;
+}
+
+/* Thiết lập padding và margin mặc định cho button */
+button {
+    padding: 0;
+    margin: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    outline: none;
+}
+
+/* Thiết lập các đường link mặc định */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Thiết lập list-style mặc định cho list */
+ol, ul {
+    list-style: none;
+}
+
+/* Thiết lập giới hạn độ rộng */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Thiết lập kích thước mặc định cho hình ảnh */
+img {
+    max-width: 100%;
+    height: auto;
+}
